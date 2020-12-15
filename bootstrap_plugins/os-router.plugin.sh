@@ -58,6 +58,9 @@ route_os() {
         centos\ linux\ release\ 7.8*)
             source ${plugins}/centos78.plugin.sh
             ;;
+        centos\ linux\ release\ 7.9*)
+            source ${plugins}/centos78.plugin.sh
+            ;;
         # Die on unknowns
         *)
             die "OS unknown and not supported: $os"
